@@ -17,7 +17,7 @@ This CLI tool simplifies the process of managing environment paths in your Linux
 You can install `addToPath` using the `go get` command:
 
 ```bash
-go install github.com/yourusername/addToPath@latest
+go install github.com/SHOOTDEAD/addToPath@latest
 ```
 
 ## Usage
