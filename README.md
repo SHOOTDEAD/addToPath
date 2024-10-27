@@ -20,6 +20,23 @@ You can install `addToPath` using the `go get` command:
 go install github.com/SHOOTDEAD/addToPath@latest
 ```
 
+## Prerequisites
+Make sure you have Go version 1.23.2 or later installed. If you are using an older version of Go, please upgrade to the recommended version to ensure compatibility.
+
+## Building from Source
+If you'd like to clone the repository and compile the binary yourself, follow these steps:
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/SHOOTDEAD/addToPath.git
+cd addToPath
+```
+### Build the binary:
+
+```bash
+go build
+```
 ## Usage
 
 ### Add a Path
