@@ -26,13 +26,13 @@ go install github.com/yourusername/addToPath@latest
 To add a path to your .bashrc, use the following command:
 
 ```bash
-./addToPath --path /your/new/path
+addToPath --path /your/new/path
 ```
 Reverse the Last Change
 To revert the last change made to your .bashrc, use:
 
 ```bash
-./addToPath --reverse
+addToPath --reverse
 ```
 
 ## Flags
@@ -43,11 +43,11 @@ To revert the last change made to your .bashrc, use:
 To add /usr/local/bin to your .bashrc, you would run:
 
 ```bash
-./addToPath --path /usr/local/bin
+addToPath --path /usr/local/bin
 ```
 
 If you want to undo that change, you would run:
 
 ```bash
-./addToPath --reverse
+addToPath --reverse
 ```
