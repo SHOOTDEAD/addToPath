@@ -12,14 +12,6 @@ This CLI tool simplifies the process of managing environment paths in your Linux
 - **Backup**: Automatically create a backup of your `.bashrc` file before making changes.
 - **Undo Changes**: Revert the last change if needed.
 
-## Installation
-
-You can install `addToPath` using the `go get` command:
-
-```bash
-go install github.com/SHOOTDEAD/addToPath@latest
-```
-
 ## Prerequisites
 Make sure you have Go version 1.23.2 or later installed. If you are using an older version of Go, please upgrade to the recommended version to ensure compatibility.
 
@@ -43,13 +35,13 @@ go build
 To add a path to your .bashrc, use the following command:
 
 ```bash
-addToPath --path /your/new/path
+./addToPath --path /your/new/path
 ```
 Reverse the Last Change
 To revert the last change made to your .bashrc, use:
 
 ```bash
-addToPath --reverse
+./addToPath --reverse
 ```
 
 ## Flags
@@ -60,11 +52,11 @@ addToPath --reverse
 To add /usr/local/bin to your .bashrc, you would run:
 
 ```bash
-addToPath --path /usr/local/bin
+./addToPath --path /usr/local/bin
 ```
 
 If you want to undo that change, you would run:
 
 ```bash
-addToPath --reverse
+./addToPath --reverse
 ```
