@@ -46,6 +46,7 @@ To revert the last change made to your .bashrc, use:
 
 ## Flags
 --path, -p: Specify the path you want to add to your .bashrc.
+
 --reverse, -r: Revert the last change made to .bashrc.
 
 ## Example
